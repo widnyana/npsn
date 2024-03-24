@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "npsn"
+version = "0.1.0"
+description = "whatever"
+authors = ["widnyana <wid@widnyana.web.id>"]
+license = "wtfpl"
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+lxml = "^5.1.0"
+certifi = "^2024.2.2"
+pydantic = "^2.6.4"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
